@@ -33,7 +33,7 @@ on:
       DEVICE_CODE:
         description: 'Device Code'
         required: true
-        default: 'borag '
+        default: 'borag'
       MAKEFILE_TYPE:
         description: 'Makefile Type'
         required: true
