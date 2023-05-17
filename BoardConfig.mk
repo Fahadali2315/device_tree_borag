@@ -60,8 +60,6 @@ BOARD_KERNEL_IMAGE_NAME := Image
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 TARGET_KERNEL_CONFIG := borag_defconfig
 TARGET_KERNEL_SOURCE := kernel/motorola/borag
-LZMA_RAMDISK_TARGETS := recovery
-BOARD_RAMDISK_USE_LZMA := true
 
 # Kernel - prebuilt
 TARGET_FORCE_PREBUILT_KERNEL := true
@@ -118,3 +116,9 @@ TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true
 TW_INCLUDE_REPACKTOOLS := true
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery/root/system/etc/recovery.fstab
+TW_INCLUDE_FASTBOOTD := true
+
+#PBRP Flags
+PB_DISABLE_DEFAULT_DM_VERITY := true
+
+
