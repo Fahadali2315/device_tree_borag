@@ -13,7 +13,7 @@ on:
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://github.com/Fahadali2315/borag-twrp-tree'
+        default: 'https://github.com/Fahadali2315/device_tree_borag'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
@@ -35,7 +35,7 @@ on:
       MAKEFILE_NAME:
         description: 'MAKEFILE_NAME'
         required: true
-        default: 'omni_borag'
+        default: 'twrp_borag'
       BUILD_TARGET:
         description: 'BUILD_TARGET'
         required: true
