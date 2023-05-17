@@ -112,4 +112,4 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: PBRP-${{ inputs.DEVICE_CODE }}-UNOFFICIAL.img
-          path: /home/runner/work/ROM_Recovery-Builder/ROM_Recovery-Builder/PBRP-${{ inputs.DEVICE_CODE }}-UNOFFICIAL.img
+          path: /home/runner/work/device_tree_borag/device_tree_borag/PBRP-${{ inputs.DEVICE_CODE }}-UNOFFICIAL.img
