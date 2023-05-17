@@ -25,7 +25,7 @@ on:
       DEVICE_TREE_BRANCH:
         description: 'Device Tree Branch'
         required: true
-        default: '12.1'
+        default: '12.1-pbrp'
       BRAND:
         description: 'Brand'
         required: true
