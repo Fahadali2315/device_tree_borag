@@ -1,6 +1,6 @@
 Copyright (C) 2022 The LineageOS Project
 
-# Device tree for Motorola E22 (borag) - OSS
+# Device tree for Motorola E22 (borag) - TWRP
 
 Motorola E22 (codenamed _"borag"_) is a high-end, mid-range smartphone from Motorola.
 
